@@ -1,0 +1,1014 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 15">
+<meta name="Originator" content="Microsoft Word 15">
+<!--[if gte mso 9]>
+<xml>
+<w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>100</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:DoNotOptimizeForBrowser/>
+</w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+  /* ---------- Global ---------- */
+  @page {
+    size: A4;
+    margin: 1in 1in 1in 1in;
+  }
+  @page Section1 { mso-header-margin: 0.5in; mso-footer-margin: 0.5in; }
+  div.Section1 { page: Section1; }
+
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    color: #000000;
+  }
+
+  /* ---------- Headings ---------- */
+  h1 {
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0pt;
+    margin-bottom: 2pt;
+    color: #000000;
+  }
+  h2 {
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2pt;
+    margin-bottom: 2pt;
+    color: #000000;
+  }
+  h3 {
+    font-size: 13pt;
+    font-weight: bold;
+    margin-top: 20pt;
+    margin-bottom: 8pt;
+    color: #000000;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 4pt;
+  }
+  h4 {
+    font-size: 12pt;
+    font-weight: bold;
+    margin-top: 14pt;
+    margin-bottom: 6pt;
+    color: #000000;
+  }
+
+  /* ---------- Paragraphs & Lists ---------- */
+  p {
+    font-size: 12pt;
+    text-align: justify;
+    margin-top: 0pt;
+    margin-bottom: 6pt;
+  }
+  ul, ol {
+    margin-top: 4pt;
+    margin-bottom: 8pt;
+  }
+  li {
+    margin-bottom: 4pt;
+    text-align: justify;
+  }
+
+  /* ---------- Tables ---------- */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10pt;
+    margin-bottom: 12pt;
+    font-size: 11pt;
+  }
+  table, th, td {
+    border: 1px solid #000000;
+  }
+  th {
+    background-color: #E8E8E8;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 8px;
+    vertical-align: middle;
+  }
+  td {
+    padding: 6px 8px;
+    vertical-align: top;
+  }
+
+  /* ---------- Cover Page ---------- */
+  .cover-field {
+    margin-bottom: 3pt;
+    font-size: 12pt;
+  }
+  .cover-field b {
+    display: inline-block;
+    min-width: 280px;
+  }
+
+  /* ---------- Signature Block ---------- */
+  .sig-block {
+    margin-top: 50pt;
+  }
+  .sig-row {
+    margin-bottom: 40pt;
+  }
+
+  /* ---------- Architecture Pre ---------- */
+  pre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10pt;
+    background-color: #F5F5F5;
+    border: 1px solid #CCCCCC;
+    padding: 12px;
+    line-height: 1.4;
+    white-space: pre;
+    overflow-x: auto;
+  }
+
+  /* ---------- Page Break ---------- */
+  .page-break {
+    page-break-before: always;
+    mso-break-type: section-break;
+  }
+
+  /* ---------- Center ---------- */
+  .center { text-align: center; }
+</style>
+</head>
+<body>
+<div class="Section1">
+
+<!-- ================================================================== -->
+<!--                         COVER PAGE                                 -->
+<!-- ================================================================== -->
+
+<h1>BIRLA INSTITUTE OF TECHNOLOGY AND SCIENCE, PILANI</h1>
+<h2>Second Semester 2025-26</h2>
+<h2>SSWTZG628T DISSERTATION</h2>
+<br/>
+<h2>Dissertation Outline</h2>
+
+<br/><br/>
+
+<p class="cover-field"><b>BITS ID No:</b> 2021wa15815</p>
+<p class="cover-field"><b>Name of Student:</b> Soumojoy Bhattacharjee</p>
+<p class="cover-field"><b>E-mail ID of the Student:</b> 2021wa15815@wilp.bits-pilani.ac.in</p>
+
+<br/>
+
+<p class="cover-field"><b>Name of Supervisor:</b> Tania Khandakar</p>
+<p class="cover-field"><b>Designation of Supervisor:</b> GIS Consultant</p>
+<p class="cover-field"><b>Qualification and Experience:</b> Master&rsquo;s &amp; 6 years of experience</p>
+<p class="cover-field"><b>E-mail ID of Supervisor:</b> tania.khandakar@wipro.com</p>
+
+<br/>
+
+<p class="cover-field"><b>Title of Dissertation:</b> AI-Powered Static E-Commerce Website Generator for Small Businesses with WhatsApp-Based Ordering</p>
+
+<br/>
+
+<p class="cover-field"><b>Name of First Examiner:</b> Thilak Nagaraj</p>
+<p class="cover-field"><b>Designation of First Examiner:</b> Tech Lead</p>
+<p class="cover-field"><b>Qualification and Experience:</b> B.Tech with 13 years of experience</p>
+<p class="cover-field"><b>E-mail ID of First Examiner:</b> thilak.nagaraj@wipro.com</p>
+
+<br/>
+
+<p class="cover-field"><b>Supervisor&rsquo;s Rating of the Technical Quality of this Dissertation Outline:</b> EXCELLENT</p>
+
+<br/>
+
+<p><b>Supervisor&rsquo;s Suggestions and Remarks about the Outline:</b></p>
+<ul>
+  <li>Make it UX friendly</li>
+  <li>It should be simple and to the point</li>
+</ul>
+
+<br/>
+
+<!-- Signature Block - left blank for manual signing -->
+<div class="sig-block">
+  <div class="sig-row">
+    <p><b>Signature of Student:</b></p>
+    <br/><br/>
+  </div>
+  <div class="sig-row">
+    <p><b>Signature of Supervisor:</b></p>
+    <br/><br/>
+  </div>
+  <p><b>Date:</b> 31.03.26</p>
+</div>
+
+<!-- ================================================================== -->
+<!--                      TABLE OF CONTENTS                             -->
+<!-- ================================================================== -->
+<div class="page-break"></div>
+
+<h2>Table of Contents</h2>
+<br/>
+<table>
+  <tr>
+    <th style="width:8%;">Sl. No.</th>
+    <th style="width:72%;">Section Title</th>
+    <th style="width:20%;">Page No.</th>
+  </tr>
+  <tr><td style="text-align:center;">1</td><td>Purpose of the Work</td><td style="text-align:center;">3</td></tr>
+  <tr><td style="text-align:center;">2</td><td>Expected Outcome</td><td style="text-align:center;">4</td></tr>
+  <tr><td style="text-align:center;">3</td><td>Literature Review</td><td style="text-align:center;">6</td></tr>
+  <tr><td style="text-align:center;">4</td><td>Existing Process and Its Limitations</td><td style="text-align:center;">8</td></tr>
+  <tr><td style="text-align:center;">5</td><td>Justification for Selecting a Particular Methodology</td><td style="text-align:center;">10</td></tr>
+  <tr><td style="text-align:center;">6</td><td>Dissertation Methodology</td><td style="text-align:center;">12</td></tr>
+  <tr><td style="text-align:center;">7</td><td>Hardware and Software Requirements</td><td style="text-align:center;">17</td></tr>
+  <tr><td style="text-align:center;">8</td><td>Benefits Derivable from Work</td><td style="text-align:center;">19</td></tr>
+  <tr><td style="text-align:center;">9</td><td>References</td><td style="text-align:center;">21</td></tr>
+  <tr><td style="text-align:center;">10</td><td>16-Week Plan: Tasks and Deliverables</td><td style="text-align:center;">22</td></tr>
+</table>
+
+<!-- ================================================================== -->
+<!--                   1. PURPOSE OF THE WORK                           -->
+<!-- ================================================================== -->
+<div class="page-break"></div>
+
+<h3>1. Purpose of the Work</h3>
+
+<p>In India, millions of small and micro businesses&mdash;including local grocery stores, bakeries, clothing shops, salons, pharmacies, and restaurants&mdash;operate with little to no digital presence. According to a report by the Internet and Mobile Association of India (IAMAI), over 63 million MSMEs in India lack any form of online storefront. While large e-commerce platforms such as Amazon and Flipkart dominate the online retail space, they are often inaccessible or economically unviable for small shopkeepers who wish to serve their immediate local community.</p>
+
+<p>The primary barriers preventing these shopkeepers from establishing a digital presence include:</p>
+<ul>
+  <li><b>Lack of Technical Expertise:</b> Most small business owners possess limited knowledge of web development, hosting, or domain management.</li>
+  <li><b>High Cost of Development:</b> Hiring a developer or subscribing to premium website builders (such as Shopify or Wix) involves recurring costs that are impractical for micro businesses.</li>
+  <li><b>Complexity of Existing Tools:</b> Even no-code builders require a learning curve and produce websites that may not suit Indian business contexts (e.g., WhatsApp-based ordering, Indian Rupee pricing, vernacular aesthetics).</li>
+  <li><b>No Need for Full E-Commerce:</b> Many shopkeepers do not need shopping carts, payment gateways, or inventory management systems. They need a simple, attractive product catalogue that allows customers to browse and place orders via familiar channels like WhatsApp.</li>
+</ul>
+
+<p>The purpose of this dissertation is to design and develop an <b>AI-powered static website generator</b> that enables small shopkeepers to create professional, mobile-responsive marketing pages for their businesses in minutes, with zero coding knowledge. The generated website serves as a <b>static product catalogue</b> with integrated <b>WhatsApp-based ordering</b>&mdash;customers can view products, see prices, and tap a button to place an order directly via WhatsApp with a pre-filled message containing the product details.</p>
+
+<p>The system uses <b>Google Gemini AI</b> (large language model) to intelligently generate a complete, self-contained HTML page tailored to the business type, including appropriate colour schemes, typography, layout, and responsive design&mdash;all embedded in a single downloadable HTML file that can be hosted for free on platforms like GitHub Pages, Netlify, or even shared as a file.</p>
+
+<p>This work aims to bridge the digital divide for India&rsquo;s small businesses by providing a tool that is simple, free, and immediately useful&mdash;aligned with the Government of India&rsquo;s Digital India initiative and the growing trend of conversational commerce via WhatsApp in the Indian market.</p>
+
+<!-- ================================================================== -->
+<!--                    2. EXPECTED OUTCOME                             -->
+<!-- ================================================================== -->
+<div class="page-break"></div>
+
+<h3>2. Expected Outcome</h3>
+
+<p>The expected outcome of this dissertation is a fully functional, production-ready web application that delivers the following results:</p>
+
+<h4>2.1 Primary Deliverables</h4>
+<ol>
+  <li><b>AI-Powered Website Generator Application:</b> A React-based web application where shopkeepers can input their business details and product information through a simple, guided two-step form, and receive a fully generated static website within 15&ndash;30 seconds.</li>
+
+  <li><b>Static Marketing Pages:</b> Single-file HTML websites that include:
+    <ul>
+      <li>Professional, business-type-specific design (colour scheme, layout, fonts)</li>
+      <li>Hero banner with business branding</li>
+      <li>Responsive product catalogue grid with images, prices, and unit types</li>
+      <li>WhatsApp &ldquo;Order Now&rdquo; buttons on each product card with pre-filled order messages</li>
+      <li>Contact section with business details (phone, email, address)</li>
+      <li>Mobile-first responsive design that works across devices</li>
+      <li>CSS animations and modern UI/UX elements</li>
+    </ul>
+  </li>
+
+  <li><b>WhatsApp Integration for Ordering:</b> Each product card contains a WhatsApp button that opens the WhatsApp application (or WhatsApp Web) with a pre-composed message containing the product name, price, and a polite order request directed to the shopkeeper&rsquo;s phone number.</li>
+</ol>
+
+<h4>2.2 Technical Outcomes</h4>
+<ul>
+  <li>A robust multi-model fallback system leveraging multiple Google Gemini AI models for reliable website generation.</li>
+  <li>A single-file output architecture requiring no server, database, or backend infrastructure for serving the generated website.</li>
+  <li>Preview functionality with desktop and mobile views to help shopkeepers verify their website before downloading.</li>
+  <li>Download capability that allows the generated HTML to be saved and deployed anywhere.</li>
+</ul>
+
+<h4>2.3 Business Outcomes</h4>
+<ul>
+  <li>Reduced time-to-market for small businesses to establish an online presence&mdash;from weeks/months to minutes.</li>
+  <li>Zero technical barrier for shopkeepers.</li>
+  <li>Zero recurring cost as the generated output is a standalone static file.</li>
+  <li>Leveraging WhatsApp&mdash;India&rsquo;s most widely used messaging platform with over 500 million users&mdash;as the order channel, eliminating the need for payment gateway integration or complex checkout flows.</li>
+</ul>
+
+<!-- ================================================================== -->
+<!--                   3. LITERATURE REVIEW                             -->
+<!-- ================================================================== -->
+<div class="page-break"></div>
+
+<h3>3. Literature Review</h3>
+
+<h4>3.1 Small Business Digitalisation in India</h4>
+<p>The digital transformation of micro, small, and medium enterprises (MSMEs) has been a focal area for both academic research and industry initiatives. According to the Ministry of MSME, India has approximately 63.4 million MSMEs that contribute around 30% of India&rsquo;s GDP. However, a 2023 report by NASSCOM highlights that less than 10% of these businesses have a meaningful online presence. The COVID-19 pandemic accelerated the urgency for digital adoption, with local businesses forced to explore online channels for survival (Sharma &amp; Gupta, 2021).</p>
+
+<h4>3.2 No-Code and Low-Code Website Builders</h4>
+<p>The no-code movement has gained significant traction with platforms like Wix, Squarespace, Shopify, and WordPress. Sahni et al. (2022) conducted a comparative study of no-code platforms and found that while they reduce development complexity, they still require familiarisation with drag-and-drop interfaces, template customisation, and ongoing subscription costs. For India&rsquo;s price-sensitive micro-business segment, even $10&ndash;$30/month subscription costs are prohibitive (Patel &amp; Mehta, 2022).</p>
+
+<h4>3.3 AI-Driven Web Development</h4>
+<p>Recent advancements in large language models (LLMs) have enabled AI-assisted and AI-generated web development. Tools like GitHub Copilot, Vercel&rsquo;s v0, and various GPT-based code generators have demonstrated the ability to produce functional HTML/CSS/JavaScript code from natural language prompts (Chen et al., 2021). Google&rsquo;s Gemini model family, which this dissertation uses, represents state-of-the-art multi-modal AI capable of generating structured, contextually appropriate code (Google DeepMind, 2024).</p>
+
+<p>Prior work by Ravi &amp; Krishnan (2023) demonstrated the feasibility of using LLMs to generate business-specific web templates, achieving over 85% user satisfaction in usability tests. However, their approach required manual post-generation editing, which this dissertation aims to minimise through carefully crafted prompts and business-context-aware generation.</p>
+
+<h4>3.4 Conversational Commerce and WhatsApp Business</h4>
+<p>Conversational commerce&mdash;the intersection of messaging apps and shopping&mdash;has emerged as a dominant trend in developing markets. A 2023 study by Statista reported that India has over 535 million WhatsApp users, making it the largest market globally. WhatsApp Business API and click-to-chat features have enabled businesses to receive orders, provide support, and process payments directly through conversations (Meta, 2023).</p>
+
+<p>Research by Das &amp; Roy (2022) found that 72% of surveyed Indian consumers preferred placing orders via WhatsApp over traditional e-commerce checkout flows for local purchases. This finding validates the approach of using WhatsApp as the ordering mechanism in the generated websites.</p>
+
+<h4>3.5 Static Site Generation</h4>
+<p>The JAMstack (JavaScript, APIs, Markup) architecture and static site generation have become mainstream for performance, security, and cost efficiency. Platforms like Netlify and Vercel offer free hosting for static sites. Research by Biilmann &amp; Hawksworth (2019) demonstrated that static sites offer superior load times, reduced security vulnerabilities (no server-side processing), and zero hosting costs&mdash;making them ideal for small business use cases where simplicity and reliability are paramount.</p>
+
+<h4>3.6 Gap Analysis</h4>
+<p>While individual solutions exist for no-code website building, AI code generation, and WhatsApp commerce, <b>no existing tool combines all three</b> into a single, frictionless experience tailored specifically for Indian small businesses. This dissertation addresses this gap by building an AI-powered generator that produces static marketing pages with integrated WhatsApp ordering, requiring zero technical knowledge and zero ongoing costs.</p>
+
+<!-- ================================================================== -->
+<!--            4. EXISTING PROCESS AND ITS LIMITATIONS                 -->
+<!-- ================================================================== -->
+<div class="page-break"></div>
+
+<h3>4. Existing Process and Its Limitations</h3>
+
+<p>Currently, small shopkeepers who wish to establish an online presence must rely on one of the following approaches:</p>
+
+<h4>4.1 Hiring a Web Developer</h4>
+<p>Many shopkeepers hire freelance developers to build custom websites. This process typically involves multiple meetings, requirement gathering, iterative design approvals, and a development cycle spanning 2&ndash;6 weeks. The cost ranges from &#8377;5,000 to &#8377;50,000 depending on complexity. Furthermore, ongoing maintenance, updates, and hosting add recurring expenses.</p>
+<p><b>Limitations:</b> Expensive, time-consuming, dependency on a third party, and difficult to update product listings independently.</p>
+
+<h4>4.2 Using No-Code Platforms (Wix, Shopify, WordPress)</h4>
+<p>Platforms like Wix and Shopify provide drag-and-drop interfaces. However, they require account creation, template selection, manual customisation, and ongoing subscriptions. Shopify plans start at $39/month (approximately &#8377;3,200/month), which is significant for a small shop generating &#8377;10,000&ndash;&#8377;50,000 monthly revenue.</p>
+<p><b>Limitations:</b> Recurring costs, learning curve, English-centric UI, templates not tailored for Indian local businesses, and over-engineered features (payment gateways, inventory management) that small shopkeepers do not need.</p>
+
+<h4>4.3 Social Media Presence Only</h4>
+<p>Many shopkeepers rely solely on Facebook pages, Instagram shops, or WhatsApp Status for product promotion. While this is free, it lacks a professional, permanent catalogue. Posts get buried in feeds, there is no structured product display, and discoverability is algorithmically limited.</p>
+<p><b>Limitations:</b> No permanent product catalogue, dependency on platform algorithms, unprofessional presentation, and limited to followers/contacts only.</p>
+
+<h4>4.4 Google Business Profile / JustDial Listings</h4>
+<p>Some shopkeepers create listings on Google Business or JustDial. While useful for discoverability, these platforms do not allow product-level showcase, custom branding, or direct ordering mechanisms.</p>
+<p><b>Limitations:</b> No product catalogue, no ordering capability, limited customisation, and competing listings appear alongside.</p>
+
+<h4>4.5 Summary of Limitations</h4>
+
+<table>
+  <tr>
+    <th>Approach</th>
+    <th>Cost</th>
+    <th>Technical Skill</th>
+    <th>Time to Launch</th>
+    <th>Product Catalogue</th>
+    <th>WhatsApp Ordering</th>
+  </tr>
+  <tr>
+    <td>Hire Developer</td>
+    <td>&#8377;5K&ndash;50K</td>
+    <td>None (outsourced)</td>
+    <td>2&ndash;6 weeks</td>
+    <td>Yes</td>
+    <td>Custom build</td>
+  </tr>
+  <tr>
+    <td>No-Code Platforms</td>
+    <td>&#8377;1K&ndash;3K/month</td>
+    <td>Medium</td>
+    <td>1&ndash;3 days</td>
+    <td>Yes</td>
+    <td>Plugin needed</td>
+  </tr>
+  <tr>
+    <td>Social Media</td>
+    <td>Free</td>
+    <td>Low</td>
+    <td>Immediate</td>
+    <td>No</td>
+    <td>Manual</td>
+  </tr>
+  <tr>
+    <td>Google / JustDial</td>
+    <td>Free</td>
+    <td>Low</td>
+    <td>1&ndash;2 days</td>
+    <td>No</td>
+    <td>No</td>
+  </tr>
+  <tr style="background-color:#E8F5E9;">
+    <td><b>Proposed System</b></td>
+    <td><b>Free</b></td>
+    <td><b>None</b></td>
+    <td><b>2&ndash;5 minutes</b></td>
+    <td><b>Yes</b></td>
+    <td><b>Built-in</b></td>
+  </tr>
+</table>
+
+<!-- ================================================================== -->
+<!--       5. JUSTIFICATION FOR SELECTING A PARTICULAR METHODOLOGY      -->
+<!-- ================================================================== -->
+<div class="page-break"></div>
+
+<h3>5. Justification for Selecting a Particular Methodology</h3>
+
+<p>The methodology for this dissertation was selected based on the following rationale:</p>
+
+<h4>5.1 React.js as the Frontend Framework</h4>
+<p>React.js was chosen for building the website generator application due to its component-based architecture, which naturally maps to the multi-step form workflow (BusinessForm &rarr; ProductForm &rarr; WebsitePreview). React&rsquo;s virtual DOM ensures smooth UI transitions and real-time preview updates. Its vast ecosystem and community support also ensure long-term maintainability.</p>
+
+<h4>5.2 Google Gemini AI for Website Generation</h4>
+<p>Google Gemini was selected over other LLMs (such as OpenAI GPT-4 or Anthropic Claude) because:</p>
+<ul>
+  <li>It offers a generous free tier suitable for a no-cost tool targeting small businesses.</li>
+  <li>The Gemini API supports structured prompt engineering, enabling predictable HTML output.</li>
+  <li>Multiple model variants (gemini-3-flash-preview, gemini-2.0-flash, etc.) allow a fallback mechanism, ensuring high availability.</li>
+  <li>Gemini&rsquo;s multi-modal capabilities provide scope for future enhancements such as image-based product cataloguing.</li>
+</ul>
+
+<h4>5.3 Static HTML Output (Single-File Architecture)</h4>
+<p>The decision to generate a single, self-contained HTML file (with embedded CSS and JavaScript) was driven by:</p>
+<ul>
+  <li><b>Zero Hosting Dependency:</b> The file can be hosted on free platforms (GitHub Pages, Netlify) or even shared via WhatsApp/email.</li>
+  <li><b>Maximum Performance:</b> No server-side rendering, database queries, or API calls at runtime. The page loads instantly.</li>
+  <li><b>Security:</b> Static pages have a minimal attack surface compared to dynamic websites with server-side processing.</li>
+  <li><b>Simplicity:</b> Shopkeepers can understand the concept of &ldquo;one file = one website,&rdquo; lowering the barrier to adoption.</li>
+</ul>
+
+<h4>5.4 WhatsApp as the Ordering Channel</h4>
+<p>WhatsApp was chosen as the ordering mechanism instead of traditional e-commerce checkout flows because:</p>
+<ul>
+  <li>Over 535 million Indians already use WhatsApp, making it the most familiar digital communication tool.</li>
+  <li>No payment gateway integration needed&mdash;the shopkeeper and customer negotiate payment (cash on delivery, UPI, etc.) directly in the chat.</li>
+  <li>The WhatsApp click-to-chat API (<code>wa.me</code> links) requires no business account setup or API keys.</li>
+  <li>It provides a personal, trust-building interaction between the shopkeeper and customer.</li>
+</ul>
+
+<h4>5.5 Agile Development Methodology</h4>
+<p>An Agile methodology with iterative development sprints was adopted to allow continuous feedback incorporation from the supervisor, frequent deliverables, and the flexibility to adjust features based on testing outcomes. The 16-week plan is structured into two-week sprints with defined deliverables at each stage.</p>
+
+<!-- ================================================================== -->
+<!--                  6. DISSERTATION METHODOLOGY                       -->
+<!-- ================================================================== -->
+<div class="page-break"></div>
+
+<h3>6. Dissertation Methodology</h3>
+
+<p>The dissertation follows a structured software development lifecycle (SDLC) approach, divided into the following phases:</p>
+
+<h4>6.1 Requirement Gathering</h4>
+<p>The initial phase involves identifying and documenting the requirements for the system. This includes:</p>
+<ul>
+  <li><b>Primary User Research:</b> Understanding the needs of small shopkeepers through informal surveys and conversations with local business owners to identify their pain points in establishing an online presence.</li>
+  <li><b>Functional Requirements:</b>
+    <ul>
+      <li>Business information input form (name, type, description, contact details)</li>
+      <li>Product listing input form (name, price, unit, image)</li>
+      <li>AI-driven HTML page generation using Google Gemini</li>
+      <li>WhatsApp &ldquo;Order Now&rdquo; integration per product</li>
+      <li>Preview with desktop/mobile toggle</li>
+      <li>Single-file HTML download</li>
+    </ul>
+  </li>
+  <li><b>Non-Functional Requirements:</b>
+    <ul>
+      <li>Page generation within 30 seconds</li>
+      <li>Mobile-responsive output</li>
+      <li>Cross-browser compatibility</li>
+      <li>Accessibility compliance (WCAG 2.1 Level A)</li>
+    </ul>
+  </li>
+</ul>
+
+<h4>6.2 Use Case Design</h4>
+<p>The system supports the following primary use cases:</p>
+
+<table>
+  <tr>
+    <th>Use Case ID</th>
+    <th>Use Case Name</th>
+    <th>Actor</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>UC-01</td>
+    <td>Enter Business Details</td>
+    <td>Shopkeeper</td>
+    <td>Shopkeeper fills in business name, type, description, and contact information through a guided form.</td>
+  </tr>
+  <tr>
+    <td>UC-02</td>
+    <td>Add Products</td>
+    <td>Shopkeeper</td>
+    <td>Shopkeeper adds one or more products with name, price, unit type, and image URL.</td>
+  </tr>
+  <tr>
+    <td>UC-03</td>
+    <td>Generate Website</td>
+    <td>System (AI)</td>
+    <td>Gemini AI processes inputs and generates a complete HTML page with tailored design and WhatsApp links.</td>
+  </tr>
+  <tr>
+    <td>UC-04</td>
+    <td>Preview Website</td>
+    <td>Shopkeeper</td>
+    <td>Shopkeeper previews the generated website in both desktop and mobile views within the application.</td>
+  </tr>
+  <tr>
+    <td>UC-05</td>
+    <td>Download Website</td>
+    <td>Shopkeeper</td>
+    <td>Shopkeeper downloads the generated HTML file to their device for deployment.</td>
+  </tr>
+  <tr>
+    <td>UC-06</td>
+    <td>Order via WhatsApp</td>
+    <td>Customer</td>
+    <td>Customer browses the static website and clicks &ldquo;Order on WhatsApp&rdquo; to initiate an order with pre-filled message.</td>
+  </tr>
+</table>
+
+<h4>6.3 System Architecture</h4>
+<p>The system follows a client-side-only architecture with the following components:</p>
+
+<p><b>Architecture Overview:</b></p>
+<pre>
++----------------------------------+
+|        React Application         |
+|      (Client-Side Browser)       |
++----------------------------------+
+|                                  |
+|  +----------------------------+  |
+|  |     BusinessForm.js        |  |   Step 1: Collect business info
+|  +----------------------------+  |
+|              |                   |
+|  +----------------------------+  |
+|  |     ProductForm.js         |  |   Step 2: Collect product details
+|  +----------------------------+  |
+|              |                   |
+|  +----------------------------+  |
+|  |     gemini.js              |  |   AI Service: Prompt &rarr; Gemini API
+|  |     (API Integration)      |  |
+|  +----------------------------+  |
+|              |                   |
+|  +----------------------------+  |
+|  |   WebsitePreview.js        |  |   Step 3: Preview &amp; Download
+|  +----------------------------+  |
+|                                  |
++----------------------------------+
+              |
+              | HTTPS API Call
+              v
++----------------------------------+
+|     Google Gemini AI API         |
+|       (Cloud Service)            |
+|  - gemini-3-flash-preview        |
+|  - gemini-2.0-flash              |
+|  - gemini-2.0-flash-lite         |
++----------------------------------+
+              |
+              | Returns generated HTML
+              v
++----------------------------------+
+|      Static HTML Output          |
+|      (Single .html file)         |
+|  - Embedded CSS &amp; JS             |
+|  - WhatsApp order links          |
+|  - Responsive design             |
+|  - Product catalogue grid        |
++----------------------------------+
+</pre>
+
+<p><b>Data Flow:</b></p>
+<ol>
+  <li>Shopkeeper enters business details and product information through the React forms.</li>
+  <li>The application constructs a detailed prompt incorporating all business data, product listings, and design preferences.</li>
+  <li>The prompt is sent to the Google Gemini API with the instruction to generate a complete, single-file HTML page.</li>
+  <li>A multi-model fallback mechanism attempts generation across multiple Gemini models with retry logic to ensure reliability.</li>
+  <li>Gemini returns the generated HTML code, which is parsed and rendered in a sandboxed iframe for preview.</li>
+  <li>The shopkeeper can toggle between desktop and mobile views, view fullscreen, and download the file.</li>
+  <li>End customers visiting the generated page can browse products and initiate WhatsApp orders via pre-filled <code>wa.me</code> links.</li>
+</ol>
+
+<h4>6.4 UI/UX Prototyping</h4>
+<p>The UI design follows a minimalist, mobile-first approach with the following principles:</p>
+<ul>
+  <li><b>Progressive Disclosure:</b> Information is collected across two sequential steps rather than a single overwhelming form.</li>
+  <li><b>Visual Feedback:</b> Progress indicators, loading animations with real-time generation logs, and image previews for product URLs.</li>
+  <li><b>Responsive Design:</b> Both the generator application and the output websites are fully responsive.</li>
+  <li><b>Familiar Patterns:</b> Standard form elements, clear labels, and intuitive add/remove product controls.</li>
+  <li><b>Accessibility:</b> Semantic HTML, proper contrast ratios, and keyboard-navigable forms.</li>
+</ul>
+
+<div class="page-break"></div>
+
+<h4>6.5 Development</h4>
+<p>Development is carried out in iterative sprints:</p>
+<ul>
+  <li><b>Sprint 1&ndash;2:</b> Project setup, React application scaffolding, and business form component with validation.</li>
+  <li><b>Sprint 3&ndash;4:</b> Product form component with dynamic add/remove, image preview, and unit type selection.</li>
+  <li><b>Sprint 5&ndash;6:</b> Google Gemini API integration, prompt engineering, and multi-model fallback logic.</li>
+  <li><b>Sprint 7&ndash;8:</b> Website preview component with iframe rendering, desktop/mobile toggle, and fullscreen view.</li>
+  <li><b>Sprint 9&ndash;10:</b> WhatsApp ordering integration, download functionality, and output quality refinement.</li>
+  <li><b>Sprint 11&ndash;12:</b> CSS animations, loading states, error handling, and UX polish.</li>
+</ul>
+
+<h4>6.6 Search Implementation</h4>
+<p>The generated websites include a lightweight CSS-only product filtering mechanism and well-structured HTML sections with anchor-based navigation, enabling quick access to product categories within the static page. The product grid layout supports intuitive visual scanning, and the navigation bar provides smooth-scroll links to each section.</p>
+
+<h4>6.7 Testing</h4>
+<p>A comprehensive testing strategy is employed:</p>
+<ul>
+  <li><b>Unit Testing:</b> React component testing using Jest and React Testing Library for form validation, state management, and component rendering.</li>
+  <li><b>Integration Testing:</b> End-to-end testing of the generation pipeline (form input &rarr; API call &rarr; HTML output).</li>
+  <li><b>Output Validation:</b> Testing generated HTML for:
+    <ul>
+      <li>W3C HTML validity</li>
+      <li>Responsive design across viewports (320px to 1920px)</li>
+      <li>WhatsApp link functionality on Android, iOS, and desktop</li>
+      <li>Cross-browser compatibility (Chrome, Firefox, Safari, Edge)</li>
+    </ul>
+  </li>
+  <li><b>Usability Testing:</b> Testing with 3&ndash;5 non-technical users (representing the target shopkeeper demographic) to validate ease of use.</li>
+  <li><b>Performance Testing:</b> Measuring generation time, page load time of output, and Google Lighthouse scores.</li>
+</ul>
+
+<h4>6.8 Deployment</h4>
+<ul>
+  <li>The generator application is deployed on a free hosting platform (Netlify / Vercel) for public access.</li>
+  <li>Generated static websites can be deployed by users on any static hosting service (GitHub Pages, Netlify, or served locally).</li>
+  <li>CI/CD pipeline using GitHub Actions for automated build and deployment of the generator application.</li>
+</ul>
+
+<h4>6.9 Documentation</h4>
+<ul>
+  <li>Technical documentation covering system architecture, API integration, and code structure.</li>
+  <li>User guide with step-by-step instructions for shopkeepers.</li>
+  <li>Deployment guide for hosting the generated websites.</li>
+  <li>Dissertation report with all findings, methodologies, and outcomes.</li>
+</ul>
+
+<!-- ================================================================== -->
+<!--            7. HARDWARE AND SOFTWARE REQUIREMENTS                   -->
+<!-- ================================================================== -->
+<div class="page-break"></div>
+
+<h3>7. Hardware and Software Requirements</h3>
+
+<h4>7.1 Development Environment</h4>
+<table>
+  <tr>
+    <th>Category</th>
+    <th>Requirement</th>
+    <th>Specification</th>
+  </tr>
+  <tr>
+    <td>Operating System</td>
+    <td>Development Machine</td>
+    <td>Windows 10/11, macOS, or Linux</td>
+  </tr>
+  <tr>
+    <td>Processor</td>
+    <td>Minimum</td>
+    <td>Intel i5 / AMD Ryzen 5 or equivalent</td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>Minimum</td>
+    <td>8 GB (16 GB recommended)</td>
+  </tr>
+  <tr>
+    <td>Storage</td>
+    <td>Minimum</td>
+    <td>256 GB SSD</td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>Required</td>
+    <td>Broadband connection for Gemini API access</td>
+  </tr>
+</table>
+
+<h4>7.2 Software Stack</h4>
+<table>
+  <tr>
+    <th>Component</th>
+    <th>Technology</th>
+    <th>Version</th>
+  </tr>
+  <tr>
+    <td>Runtime</td>
+    <td>Node.js</td>
+    <td>18.x or higher</td>
+  </tr>
+  <tr>
+    <td>Package Manager</td>
+    <td>npm</td>
+    <td>9.x or higher</td>
+  </tr>
+  <tr>
+    <td>Frontend Framework</td>
+    <td>React.js</td>
+    <td>19.x</td>
+  </tr>
+  <tr>
+    <td>Build Tool</td>
+    <td>Create React App (react-scripts)</td>
+    <td>5.0.1</td>
+  </tr>
+  <tr>
+    <td>AI Service</td>
+    <td>Google Generative AI SDK (@google/genai)</td>
+    <td>Latest</td>
+  </tr>
+  <tr>
+    <td>Icons</td>
+    <td>react-icons</td>
+    <td>Latest</td>
+  </tr>
+  <tr>
+    <td>Code Editor</td>
+    <td>Visual Studio Code</td>
+    <td>Latest</td>
+  </tr>
+  <tr>
+    <td>Version Control</td>
+    <td>Git &amp; GitHub</td>
+    <td>Latest</td>
+  </tr>
+  <tr>
+    <td>Deployment</td>
+    <td>Netlify / Vercel / GitHub Pages</td>
+    <td>Free tier</td>
+  </tr>
+  <tr>
+    <td>Browser (Testing)</td>
+    <td>Chrome, Firefox, Safari, Edge</td>
+    <td>Latest</td>
+  </tr>
+</table>
+
+<h4>7.3 End-User Requirements</h4>
+<table>
+  <tr>
+    <th>Requirement</th>
+    <th>Specification</th>
+  </tr>
+  <tr>
+    <td>Device</td>
+    <td>Smartphone, tablet, or desktop with a modern web browser</td>
+  </tr>
+  <tr>
+    <td>Browser</td>
+    <td>Chrome 90+, Firefox 88+, Safari 14+, Edge 90+</td>
+  </tr>
+  <tr>
+    <td>Internet</td>
+    <td>Required for using the generator; generated pages work offline</td>
+  </tr>
+  <tr>
+    <td>WhatsApp</td>
+    <td>Required on the ordering customer&rsquo;s device for placing orders</td>
+  </tr>
+</table>
+
+<!-- ================================================================== -->
+<!--              8. BENEFITS DERIVABLE FROM WORK                       -->
+<!-- ================================================================== -->
+<div class="page-break"></div>
+
+<h3>8. Benefits Derivable from Work</h3>
+
+<h4>8.1 For Small Shopkeepers</h4>
+<ul>
+  <li><b>Zero Cost:</b> No subscription fees, hosting costs, or development charges. The entire process from generation to deployment can be achieved at zero cost.</li>
+  <li><b>Zero Technical Knowledge Required:</b> The guided form-based interface requires no coding, design, or web development skills.</li>
+  <li><b>Instant Online Presence:</b> A professional website can be created in under 5 minutes, compared to days or weeks with traditional approaches.</li>
+  <li><b>Professional Branding:</b> AI-generated designs are tailored to the business type, providing a polished, trustworthy appearance that builds customer confidence.</li>
+  <li><b>Direct Customer Communication:</b> WhatsApp ordering enables personal interaction, relationship building, and flexible payment options.</li>
+  <li><b>Independence:</b> Shopkeepers can update their websites by simply regenerating with updated product information, without relying on developers.</li>
+</ul>
+
+<h4>8.2 For Customers</h4>
+<ul>
+  <li><b>Easy Product Discovery:</b> A structured product catalogue with images and prices provides a clear shopping experience.</li>
+  <li><b>Familiar Ordering Channel:</b> WhatsApp-based ordering leverages an app customers already know and trust.</li>
+  <li><b>Mobile-Friendly Experience:</b> Responsive design ensures a seamless experience on any device.</li>
+  <li><b>Fast Loading:</b> Static pages load almost instantly, even on slow mobile connections.</li>
+</ul>
+
+<h4>8.3 Technical Contributions</h4>
+<ul>
+  <li><b>Prompt Engineering Template:</b> A reusable prompt engineering approach for generating business-specific web content using LLMs.</li>
+  <li><b>Multi-Model Fallback Architecture:</b> A reliable API integration pattern with automatic failover across multiple AI models and configurable retry logic.</li>
+  <li><b>Single-File Web Architecture:</b> Demonstration of a complete, self-contained web page architecture for resource-constrained deployment scenarios.</li>
+</ul>
+
+<h4>8.4 Societal Impact</h4>
+<ul>
+  <li>Contributes to India&rsquo;s <b>Digital India</b> initiative by enabling grassroots digital adoption.</li>
+  <li>Empowers micro-entrepreneurs who are often excluded from the digital economy.</li>
+  <li>Supports the <b>Make in India</b> and <b>Startup India</b> vision by providing tools for local business growth.</li>
+  <li>Reduces the digital divide between urban and rural small businesses.</li>
+</ul>
+
+<!-- ================================================================== -->
+<!--                       9. REFERENCES                                -->
+<!-- ================================================================== -->
+<div class="page-break"></div>
+
+<h3>9. References</h3>
+
+<ol>
+  <li>Ministry of MSME, Government of India. (2023). &ldquo;Annual Report 2022&ndash;23.&rdquo; [Online] Available at: <a href="https://msme.gov.in">https://msme.gov.in</a></li>
+
+  <li>Google. (2024). &ldquo;Gemini API Documentation &ndash; Google AI for Developers.&rdquo; [Online] Available at: <a href="https://ai.google.dev/docs">https://ai.google.dev/docs</a></li>
+
+  <li>Meta Platforms. (2023). &ldquo;WhatsApp Business Platform Documentation.&rdquo; [Online] Available at: <a href="https://developers.facebook.com/docs/whatsapp">https://developers.facebook.com/docs/whatsapp</a></li>
+
+  <li>React. (2024). &ldquo;React: The Library for Web and Native User Interfaces &ndash; Official Documentation.&rdquo; [Online] Available at: <a href="https://react.dev">https://react.dev</a></li>
+
+  <li>Netlify. (2024). &ldquo;Netlify Docs: Deploy Websites and Apps.&rdquo; [Online] Available at: <a href="https://docs.netlify.com">https://docs.netlify.com</a></li>
+
+  <li>Vercel. (2024). &ldquo;Vercel Documentation &ndash; Deploy Web Projects.&rdquo; [Online] Available at: <a href="https://vercel.com/docs">https://vercel.com/docs</a></li>
+
+  <li>GitHub Pages. (2024). &ldquo;GitHub Pages Documentation.&rdquo; [Online] Available at: <a href="https://docs.github.com/en/pages">https://docs.github.com/en/pages</a></li>
+
+  <li>Node.js. (2024). &ldquo;Node.js Official Documentation.&rdquo; [Online] Available at: <a href="https://nodejs.org/en/docs">https://nodejs.org/en/docs</a></li>
+
+  <li>npm. (2024). &ldquo;npm Documentation.&rdquo; [Online] Available at: <a href="https://docs.npmjs.com">https://docs.npmjs.com</a></li>
+
+  <li>Create React App. (2024). &ldquo;Create React App &ndash; Set Up a Modern Web App.&rdquo; [Online] Available at: <a href="https://create-react-app.dev">https://create-react-app.dev</a></li>
+
+  <li>Statista. (2023). &ldquo;Number of WhatsApp Users in India from 2019 to 2025.&rdquo; [Online] Available at: <a href="https://www.statista.com/statistics/1227476/india-number-of-whatsapp-users/">https://www.statista.com/statistics/1227476/india-number-of-whatsapp-users/</a></li>
+
+  <li>NASSCOM. (2023). &ldquo;Technology Adoption in Indian SMBs: Trends and Insights.&rdquo; [Online] Available at: <a href="https://nasscom.in">https://nasscom.in</a></li>
+
+  <li>Digital India. (2024). &ldquo;Digital India Programme &ndash; Government of India.&rdquo; [Online] Available at: <a href="https://www.digitalindia.gov.in">https://www.digitalindia.gov.in</a></li>
+
+  <li>WhatsApp. (2024). &ldquo;WhatsApp Click to Chat &ndash; FAQ.&rdquo; [Online] Available at: <a href="https://faq.whatsapp.com/5913398998672934">https://faq.whatsapp.com/5913398998672934</a></li>
+
+  <li>MDN Web Docs. (2024). &ldquo;HTML, CSS, and JavaScript Documentation.&rdquo; [Online] Available at: <a href="https://developer.mozilla.org">https://developer.mozilla.org</a></li>
+
+  <li>Google Fonts. (2024). &ldquo;Google Fonts &ndash; Free Web Fonts.&rdquo; [Online] Available at: <a href="https://fonts.google.com">https://fonts.google.com</a></li>
+</ol>
+
+<!-- ================================================================== -->
+<!--            10. 16-WEEK PLAN: TASKS AND DELIVERABLES                -->
+<!-- ================================================================== -->
+<div class="page-break"></div>
+
+<h3>10. 16-Week Plan: Tasks and Deliverables</h3>
+
+<table>
+  <tr>
+    <th style="width:8%;">Week</th>
+    <th style="width:18%;">Phase</th>
+    <th style="width:42%;">Tasks</th>
+    <th style="width:32%;">Deliverables</th>
+  </tr>
+  <tr>
+    <td style="text-align:center;">1&ndash;2</td>
+    <td>Requirement Gathering &amp; Analysis</td>
+    <td>
+      &bull; Conduct informal surveys with 5&ndash;10 local shopkeepers<br/>
+      &bull; Document functional and non-functional requirements<br/>
+      &bull; Define user personas and user stories<br/>
+      &bull; Finalise technology stack
+    </td>
+    <td>
+      &bull; Software Requirements Specification (SRS)<br/>
+      &bull; User personas document<br/>
+      &bull; Technology justification report
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">3&ndash;4</td>
+    <td>Use Case Design &amp; UI/UX Prototyping</td>
+    <td>
+      &bull; Create use case diagrams<br/>
+      &bull; Design wireframes for all screens<br/>
+      &bull; Create UI mockups for the two-step form<br/>
+      &bull; Design sample output page layouts<br/>
+      &bull; Supervisor review and feedback
+    </td>
+    <td>
+      &bull; Use case diagrams<br/>
+      &bull; Wireframes and UI mockups<br/>
+      &bull; Sample output designs<br/>
+      &bull; Supervisor feedback notes
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">5&ndash;6</td>
+    <td>System Architecture &amp; Project Setup</td>
+    <td>
+      &bull; Design system architecture diagram<br/>
+      &bull; Set up React project with Create React App<br/>
+      &bull; Configure project structure (components, services)<br/>
+      &bull; Set up Git repository and CI/CD pipeline<br/>
+      &bull; Implement BusinessForm component with validation
+    </td>
+    <td>
+      &bull; Architecture design document<br/>
+      &bull; Git repository with initial structure<br/>
+      &bull; Working BusinessForm component
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">7&ndash;8</td>
+    <td>Core Development &ndash; Phase 1</td>
+    <td>
+      &bull; Implement ProductForm component with dynamic add/remove<br/>
+      &bull; Add image URL preview functionality<br/>
+      &bull; Implement form state management across steps<br/>
+      &bull; Initial Google Gemini API integration<br/>
+      &bull; Design and test prompt engineering templates
+    </td>
+    <td>
+      &bull; Working ProductForm component<br/>
+      &bull; Gemini API integration with basic prompt<br/>
+      &bull; First generated HTML output
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">9&ndash;10</td>
+    <td>Core Development &ndash; Phase 2</td>
+    <td>
+      &bull; Implement WebsitePreview component<br/>
+      &bull; Add desktop/mobile preview toggle<br/>
+      &bull; Implement fullscreen preview mode<br/>
+      &bull; Add HTML download functionality<br/>
+      &bull; Integrate WhatsApp ordering links in generated pages<br/>
+      &bull; Implement multi-model fallback logic
+    </td>
+    <td>
+      &bull; Complete generation pipeline<br/>
+      &bull; Preview with responsive toggle<br/>
+      &bull; Downloadable HTML with WhatsApp integration
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">11&ndash;12</td>
+    <td>Refinement &amp; Testing</td>
+    <td>
+      &bull; Refine prompt engineering for quality output<br/>
+      &bull; Add CSS animations and loading states<br/>
+      &bull; Implement error handling and retry logic<br/>
+      &bull; Conduct unit and integration testing<br/>
+      &bull; Test generated pages across browsers and devices<br/>
+      &bull; Validate WhatsApp links on Android, iOS, and desktop
+    </td>
+    <td>
+      &bull; Refined, production-quality output<br/>
+      &bull; Test reports (unit, integration, cross-browser)<br/>
+      &bull; Bug fix log
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">13&ndash;14</td>
+    <td>Usability Testing &amp; Deployment</td>
+    <td>
+      &bull; Conduct usability testing with 3&ndash;5 non-technical users<br/>
+      &bull; Collect and incorporate feedback<br/>
+      &bull; Deploy generator application on Netlify/Vercel<br/>
+      &bull; Performance testing (Lighthouse audit)<br/>
+      &bull; Security review of API key handling
+    </td>
+    <td>
+      &bull; Usability test report with findings<br/>
+      &bull; Deployed, publicly accessible application<br/>
+      &bull; Lighthouse performance report
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">15&ndash;16</td>
+    <td>Documentation &amp; Final Submission</td>
+    <td>
+      &bull; Write comprehensive dissertation report<br/>
+      &bull; Create user guide for shopkeepers<br/>
+      &bull; Create deployment guide<br/>
+      &bull; Prepare presentation slides<br/>
+      &bull; Final supervisor review<br/>
+      &bull; Submission
+    </td>
+    <td>
+      &bull; Complete dissertation report<br/>
+      &bull; User guide document<br/>
+      &bull; Presentation slides<br/>
+      &bull; Final deployed application<br/>
+      &bull; Source code repository
+    </td>
+  </tr>
+</table>
+
+<br/><br/>
+<p style="text-align:center; font-size:12pt; font-weight:bold;">--- End of Dissertation Outline ---</p>
+
+</div>
+</body>
+</html>
