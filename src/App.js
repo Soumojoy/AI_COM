@@ -28,7 +28,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [logs, setLogs] = useState([]);
-  const [premium, setPremium] = useState(false);
+  const [premium] = useState(false);
   const [showGifModal, setShowGifModal] = useState(false);
   const [gifModalSrc, setGifModalSrc] = useState("");
   const [ownerWarned, setOwnerWarned] = useState(false);
