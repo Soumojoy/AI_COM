@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { FaMagic, FaRocket } from "react-icons/fa";
+import WelcomePage from "./components/WelcomePage";
 import BusinessForm from "./components/BusinessForm";
 import ProductForm from "./components/ProductForm";
 import WebsitePreview from "./components/WebsitePreview";
@@ -18,7 +19,7 @@ const INITIAL_BUSINESS = {
 };
 
 function App() {
-  const [step, setStep] = useState(1); // 1=form, 2=preview
+  const [step, setStep] = useState(0); // 0=welcome, 1=form, 2=preview
   const [businessInfo, setBusinessInfo] = useState(INITIAL_BUSINESS);
   const [products, setProducts] = useState([
     { name: "", price: "", unit: "piece", image: "" },
@@ -32,6 +33,7 @@ function App() {
   const [gifModalSrc, setGifModalSrc] = useState("");
   const [ownerWarned, setOwnerWarned] = useState(false);
   const [buildPhase, setBuildPhase] = useState(null); // null | "gif" | "skeleton" | "preview"
+  const [pendingStep, setPendingStep] = useState(null); // For navigation after GIF modal
 
   const openGifModal = useCallback((src) => {
     setGifModalSrc(src);
@@ -41,9 +43,16 @@ function App() {
   // Auto-dismiss the GIF modal after 5 seconds
   useEffect(() => {
     if (!showGifModal) return;
-    const timer = setTimeout(() => setShowGifModal(false), 5000);
+    const timer = setTimeout(() => {
+      setShowGifModal(false);
+      // Navigate to pending step if set
+      if (pendingStep !== null) {
+        setStep(pendingStep);
+        setPendingStep(null);
+      }
+    }, 5000);
     return () => clearTimeout(timer);
-  }, [showGifModal]);
+  }, [showGifModal, pendingStep]);
 
   // Build phase: gif → skeleton → preview
   useEffect(() => {
@@ -60,6 +69,11 @@ function App() {
   const handlePremiumToggle = useCallback(() => {
     openGifModal("/office.webp");
     // Premium stays off — feature not available yet
+  }, [openGifModal]);
+
+  const handleGetStarted = useCallback(() => {
+    openGifModal("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYml2dTQ5NmZiNG1rdjl3eGc5bXp3cnhzemd4ZHZkM2VxYzdrNnh5ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NbhiwA0C8THIv8KvG5/giphy.gif");
+    setPendingStep(1); // Navigate to business form after GIF modal closes
   }, [openGifModal]);
 
   const validate = () => {
@@ -151,6 +165,23 @@ function App() {
       setStep(2);
     }
   }, [buildPhase, generatedHTML]);
+
+  // Show welcome page first
+  if (step === 0) {
+    return (
+      <>
+        <WelcomePage onGetStarted={handleGetStarted} />
+        {showGifModal && (
+          <div className="gif-modal-overlay" onClick={() => setShowGifModal(false)}>
+            <div className="gif-modal" onClick={(e) => e.stopPropagation()}>
+              <img src={gifModalSrc} alt="Exciting moment!" />
+              <div className="gif-modal-bar" />
+            </div>
+          </div>
+        )}
+      </>
+    );
+  }
 
   if (step === 2 && generatedHTML) {
     return <WebsitePreview html={generatedHTML} onBack={() => setStep(1)} />;
